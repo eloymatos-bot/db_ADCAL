@@ -69,4 +69,3 @@ CREATE TABLE DETALLE_VENTA (
     CONSTRAINT fk_detalle_producto
         FOREIGN KEY (id_producto) REFERENCES PRODUCTO(id_producto)
 );
-
